@@ -3,7 +3,8 @@ public class Main {
 
         int[] sale = {67, 87, 89};
         SalesManager manager = new SalesManager(sale);
-        System.out.println(manager.max());
+        System.out.println("Максимальное значение:"+" "+manager.max());
+        System.out.println("Среднее значение,исключая минимальное и максимальное:"+" "+manager.medium());
 
     }
 }
